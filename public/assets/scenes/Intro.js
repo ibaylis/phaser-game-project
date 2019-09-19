@@ -62,7 +62,7 @@ export default class Intro extends Phaser.Scene {
 	}
 	update(delta) {
 		if (this.keys.SPACE.isDown) {
-			this.scene.start('Level1');
+			this.scene.start('Level2');
 		}
 	}
 }
